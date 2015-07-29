@@ -15,5 +15,8 @@ $ npm install sweter -g
 ## Usage
 
 ```
-$ sweter google.com --reporter elastic --elastic-host 127.0.0.1 --elastic-index my-index
+$ sweter google.com \ 
+    --reporter elastic \ 
+    --elastic-host 127.0.0.1 \ 
+    --elastic-index my-index
 ```
