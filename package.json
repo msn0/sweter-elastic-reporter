@@ -1,0 +1,26 @@
+{
+  "name": "sweter-elastic-reporter",
+  "version": "0.1.0",
+  "description": "Elastic reporter for Sweter",
+  "author": {
+    "name": "Michał Jezierski",
+    "email": "ambinanitelo@gmail.com"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "repository": "msn0/sweter-elastic-reporter",
+  "license": "Apache-2.0",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "elasticsearch": "^5.0.0",
+    "mocha": "^2.2.4",
+    "rewire": "^2.3.4",
+    "sinon": "^1.15.4"
+  }
+}
