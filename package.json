@@ -1,6 +1,6 @@
 {
   "name": "sweter-elastic-reporter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Elastic reporter for Sweter",
   "author": {
     "name": "Michał Jezierski",
@@ -18,9 +18,11 @@
     "index.js"
   ],
   "devDependencies": {
-    "elasticsearch": "^5.0.0",
     "mocha": "^2.2.4",
     "rewire": "^2.3.4",
     "sinon": "^1.15.4"
+  },
+  "dependencies": {
+    "elasticsearch": "^5.0.0"
   }
 }
